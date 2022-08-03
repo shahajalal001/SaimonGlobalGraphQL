@@ -1,9 +1,11 @@
+import mongoose from 'mongoose'
 import Package from '../models/package.model'
 import { removeAll } from '../utils/redisHelper'
 
 export const addPlan = async (req, args, context) => {
     try {
         let {packageId, planInput} = args
+        planInput._id = new mongoose.Types.ObjectId()
         let updatePackage = await Package.updateOne({_id: packageId},{
             $push: {
                 plans: planInput
