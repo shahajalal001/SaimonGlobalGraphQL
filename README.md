@@ -25,11 +25,11 @@ $ npm i -g nodemon
 
 Follow the link below to install redis in mac:
 
-[a link](https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/)
+[Go to mac installation page](https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/)
 
 Follow the link below to install redis in linux:
 
-[a link](https://phoenixnap.com/kb/install-redis-on-ubuntu-20-04)
+[Go to linux installation page](https://phoenixnap.com/kb/install-redis-on-ubuntu-20-04)
 
 To install dependencies of the project, run the following command:
 
